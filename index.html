@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/letra-f.png">
+  <title>Ferreteria Don Franco
+  </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- CSS VINCULAR-->
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header> <!--encierra contendido del encabezado-->
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Ayuda
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Preguntas Frecuentes</a></li>
+        <li><a class="dropdown-item" href="#">Habla con nosotros</a></li>
+        <li><a class="dropdown-item" href="#">Acerca de</a></li>
+      </ul>
+    </div>
+    <nav> <!--centro de navegacion principal de un archivo html-->
+      <ul>
+        <li><a href="./pages/industriales.html">Industriales</a></li>
+        <li><a href="./pages/hogar.html">Hogar</a></li>
+        <li><a href="./pages/sanitarios.html">Sanitarios</a></li>
+        <li><a href="./pages/pinturas.html">Pinturas</a></li>
+      </ul>
+    </nav>
+
+    <div class="boton-buscar">
+      <form action="">
+        <input type="search" name="" id="myinput">
+        <input type="submit" value="Buscar">
+      </form>
+    </div>
+
+    <h1 class="titulo">Ferreteria Don Franco</h1>
+
+  </header>
+
+  <main> <!--contenido especifico y principal de un archivo-->
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/foto de portada.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/foto de portada 2.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/foto de portada 3.webp" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">antes</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">despues</span>
+      </button>
+    </div>
+
+    <section><!--separa en temas el contenido especifico de un archivo-->
+      <h2 class="titulo-categoria"> Destacados</h2>
+      <div class="articulos">
+        <article> <!-- articlulos especificos que repiten las formas ej foto, nombre, precio, boton de compra-->
+          <img src="./assets/amoladoraindex.webp" width="95%" height="57%" alt="amoladora color rojo">
+          <h3 class="descripcion">Amoladora Angular 115mm Hamilton 850w 220v - Haa001 Color Naranja Frecuencia 50 Hz/60
+            Hz</h3>
+          <p class="descripcion"> $100.000</p>
+          <a href="./pages/carrito.html">
+            <button class="comprar-c" type="button">Comprar</button> </a>
+        </article>
+
+        <article>
+          <img src="./assets/cajaherraindex.webp" width="94%" alt="caja de herramientas con 50 piezas">
+          <h3 class="descripcion"> Kit Juego Herramientas Manuales 9 Piezas En Estuche Ingco Hkth20809 Color Amarillo
+          </h3>
+          <p class="descripcion"> $50.000</p>
+          <a href="./pages/carrito.html">
+            <button class="comprar-c" type="button">Comprar</button> </a>
+        </article>
+
+
+        <article>
+          <img src="./assets/taladroindex.webp" width="95%" alt="taladro de color azul petroleo con caja e inalambrico">
+          <h3 class="descripcion"> Taladro Atornillador Percutor Inalámbrico Brushless 20v 96nm 2 Bat 4.0ah Total</h3>
+          <p class="descripcion">$25.000</p>
+          <a href="./pages/carrito.html">
+            <button class="comprar-c" type="button">Comprar</button> </a>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="titulo-categoria">Ofertas</h2>
+      <div class="articulos">
+        <article>
+          <img src="./assets/pinza oferta.webp" width="95%" alt="Pinza de color amarilla y negra">
+          <h3 class="descripcion">Alicate De Electricista 8 200mm 8 Funciones En 1 Ingco Color Negro</h3>
+          <p class="descripcion">$20.000</p>
+          <a href="./pages/carrito.html">
+            <button class="comprar-c" type="button">Comprar</button></a>
+        </article>
+
+        <article>
+          <img src="./assets/sierra oferta.webp" width="95%" alt="sierra circular multifuncion">
+          <h3 class="descripcion">Sierra Circular Amoladora Taladro Lijadora 6 Funciones 1500w</h3>
+          <p class="descripcion">$532.000</p>
+          <a href="./pages/carrito.html">
+            <button class="comprar-c" type="button">Comprar</button></a>
+        </article>
+
+        <article>
+          <img src="./assets/caladora oferta.webp" width="95%" alt="maquina para cortar madera de color azul y naranja">
+          <h3 class="descripcion">Sierra Caladora Madera 570w Regulable 45° Wadfow Wjs15571</h3>
+          <p class="descripcion">$70.000</p>
+          <a href="./pages/carrito.html">
+            <button class="comprar-c" type="button">Comprar</button></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="marcas">
+      <div class="nuestrasmarcas">
+        <img src="./assets/nuestras-marcas.webp" width="20%" alt="logos de nuestras marcas">
+        <img src="./assets/nuestrasmarcas1.webp" width="20%" alt="logos de nuestras marcas">
+        <img src="./assets/nuestrasmarcas2.webp" width="20%" alt="logos de nuestras marcas">
+        <img src="./assets/nuestrasmarcas3.webp" width="20%" alt="logos de nuestras marcas">
+        <img src="./assets/nuestrasmarcas4.webp" width="20%" alt="logos de nuestras marcas">
+      </div>
+    </section>
+
+    <section>
+      <h2 class="titulo-categoria">Novedades</h2>
+      <div class="articulos">
+        <article>
+          <img src="./assets/novedades1.webp" alt="termo de color blanco">
+          <h3 class="descripcion">Termo 1.3 Lts Acero Inoxidable Blanco Kldth13b</h3>
+          <p class="descripcion">$30.000</p>
+          <a href="./pages/carrito.html">
+            <button class="comprar-c" type="button">Comprar</button></a>
+        </article>
+
+        <article>
+          <img src="./assets/novedades2.webp" alt="lijadora de coolor amarillo, negro y marron">
+          <h3 class="descripcion">Lijadora Orbital Inalámbrica Ingco Cshsli2014 20v +batería2a</h3>
+          <p class="descripcion">$155.000</p>
+          <a href="./pages/carrito.html">
+            <button class="comprar-c" type="button">Comprar</button></a>
+        </article>
+
+        <article>
+          <img src="./assets/novedades3.webp" alt="martillo demoledor de color amarillo y negro">
+          <h3 class="descripcion">Martillo Demoledor Ingco 2200w 75j 30kg Hexagonal</h3>
+          <p class="descripcion">$980.000</p>
+          <a href="./pages/carrito.html">
+            <button class="comprar-c" type="button">Comprar</button></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="infoiconos">
+      <div class="iconos">
+        <img src="./assets/repartidor.png" alt="">
+        <span>Envios a todo el pais</span>
+      </div>
+      <div class="iconos">
+        <img src="./assets/proteger.png" alt="">
+        <span>Compra segura</span>
+      </div>
+      <div class="iconos">
+        <img src="./assets/whatsapp.png" alt="">
+        <span>Chatea con nosotros</span>
+      </div>
+    </section>
+
+    <h4 class="titulo-categoria"> Conoce nuestro Local al publico</h4>
+    <div class="local-padre">
+      <img src="./assets/interior.webp" width="80%" class="local-1">
+      <video src="./assets/VID-20250830-WA0074.mp4" controls class="local-2"></video>
+      <img src="./assets/eqiopo.jpeg" width="75%" class="local-3">
+      <img src="./assets/frente.jpeg" width="100%" class="local-4">
+    </div>
+  </main>
+
+  <footer> <!--contenido pie de pagina-->
+    <p>Copyright Ferretería Don Franco - xxxxxxxx - 2025. Todos los derechos reservados. Defensa de las y los
+      consumidores. Para reclamos ingresá acá.</p>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
