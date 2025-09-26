@@ -221,6 +221,7 @@ tr:last-child {
     .articulos {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .articulos img {
