@@ -233,8 +233,7 @@ tr:last-child {
     }
 
     article {
-        width: 200px;
-        padding: 30px;
+        padding: 35px;
     }
 
     .articulos img {
@@ -243,7 +242,7 @@ tr:last-child {
     }
 
     .descripcion {
-        font-size: large;
+        font-size:medium;
     }
 
     .infoiconos {
