@@ -239,6 +239,7 @@ tr:last-child {
 
     .descripcion {
         font-size: large;
+        text-align: justify;
     }
 
     .infoiconos {
