@@ -218,6 +218,10 @@ tr:last-child {
         text-align: center;
     }
 
+    .titulo {
+        font-size: 60px;
+    }
+
     .articulos {
         display: flex;
         flex-direction: column;
