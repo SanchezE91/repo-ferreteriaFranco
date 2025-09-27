@@ -232,10 +232,6 @@ tr:last-child {
         align-items: center;
     }
 
-    article {
-        padding: 35px;
-    }
-
     .articulos img {
         max-width: 100%;
         height: auto;
