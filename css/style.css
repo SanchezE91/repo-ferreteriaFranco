@@ -78,6 +78,11 @@ article {
 .articulos img {
     display: block;
     margin: 0 auto;
+    transition: 0.35s ease;
+}
+
+.articulos img:hover {
+    transform: scale(1.26);
 }
 
 .descripcion {
