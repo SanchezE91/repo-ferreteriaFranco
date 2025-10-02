@@ -12,14 +12,10 @@ body {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  background-image: url(../assets/posiblefondobody.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 header {
-  background-color: rgb(57, 133, 57);
+  background-color: #398539;
 }
 
 nav ul {
