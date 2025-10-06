@@ -20,7 +20,7 @@ nav ul li {
   margin-top: 10px;
 }
 nav ul li a {
-  color: rgb(211, 215, 219);
+  color: #ffffff;
   text-decoration: none;
   font-size: x-large;
 }
@@ -37,7 +37,7 @@ nav ul li a {
 
 .titulo {
   font-family: "Bebas Neue", sans-serif;
-  color: white;
+  color: #ffffff;
   background: linear-gradient(90deg, #333, #666);
   padding: 15px 0;
   text-align: center;
@@ -55,7 +55,7 @@ nav ul li a {
 }
 
 article {
-  border: solid 3px rgb(57, 133, 57);
+  border: solid 3px #398539;
   border-radius: 10px;
   margin: 10px;
   width: 30%;
@@ -82,8 +82,8 @@ article {
 
 .comprar {
   cursor: pointer;
-  background-color: rgb(57, 133, 57);
-  color: rgb(233, 231, 231);
+  background-color: #398539;
+  color: #ffffff;
   font-size: 16px;
 }
 
@@ -91,8 +91,8 @@ article {
   display: flex;
   justify-self: center;
   cursor: pointer;
-  background-color: rgb(57, 133, 57);
-  color: rgb(233, 231, 231);
+  background-color: #398539;
+  color: #ffffff;
   font-size: 16px;
 }
 
@@ -100,15 +100,15 @@ article {
   display: flex;
   justify-self: flex-end;
   cursor: pointer;
-  background-color: rgb(57, 133, 57);
-  color: rgb(233, 231, 231);
+  background-color: #398539;
+  color: #ffffff;
   font-size: 16px;
 }
 
 .nuestrasmarcas {
   display: flex;
   flex-direction: row;
-  background-color: rgb(57, 133, 57);
+  background-color: #398539;
   padding: 1%;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -118,7 +118,7 @@ article {
   display: flex;
   flex-direction: row;
   gap: 20%;
-  background-color: rgb(57, 133, 57);
+  background-color: #398539;
   margin-top: 5%;
   margin-bottom: 5%;
   padding: 5%;
@@ -164,7 +164,7 @@ article {
 }
 
 footer {
-  background-color: rgb(57, 133, 57);
+  background-color: #398539;
   text-align: center;
   padding: 1%;
   margin-top: 15%;
@@ -182,7 +182,7 @@ table {
   background: rgb(240, 238, 238);
 }
 table th {
-  border: 1px solid rgb(211, 215, 219);
+  border: 1px solid #ffffff;
   background: rgb(240, 238, 238);
 }
 table th td {
@@ -224,7 +224,7 @@ table th td tr:last-child {
     display: flex;
     flex-direction: column;
     gap: 20%;
-    background-color: rgb(57, 133, 57);
+    background-color: #398539;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 5%;

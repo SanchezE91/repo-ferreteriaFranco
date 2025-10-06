@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: $white;
     font-family: "Epunda Slab", serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #398539;
+    background-color: $green;
 }
 
 nav {
@@ -21,7 +21,7 @@ nav {
             margin-top: 10px;
 
             a {
-                color: rgb(211, 215, 219);
+                color: $white;
                 text-decoration: none;
                 font-size: x-large;
 
@@ -42,7 +42,7 @@ nav {
 
 .titulo {
     font-family: 'Bebas Neue', sans-serif;
-    color: white;
+    color: $white;
     background: linear-gradient(90deg, #333, #666);
     padding: 15px 0;
     text-align: center;
@@ -53,7 +53,7 @@ nav {
 
 
 .titulo-categoria {
-    color: #398539;
+    color: $green;
     font-size: 35px;
     margin: 35px;
     text-align: center;
@@ -61,7 +61,7 @@ nav {
 }
 
 article {
-    border: solid 3px rgb(57, 133, 57);
+    border: solid 3px $green;
     border-radius: 10px;
     margin: 10px;
     width: 30%;
@@ -90,8 +90,8 @@ article {
 
 .comprar {
     cursor: pointer;
-    background-color: rgb(57, 133, 57);
-    color: rgb(233, 231, 231);
+    background-color: $green;
+    color: $white;
     font-size: 16px;
 }
 
@@ -99,8 +99,8 @@ article {
     display: flex;
     justify-self: center;
     cursor: pointer;
-    background-color: rgb(57, 133, 57);
-    color: rgb(233, 231, 231);
+    background-color: $green;
+    color: $white;
     font-size: 16px;
 }
 
@@ -108,15 +108,15 @@ article {
     display: flex;
     justify-self: flex-end;
     cursor: pointer;
-    background-color: rgb(57, 133, 57);
-    color: rgb(233, 231, 231);
+    background-color: $green;
+    color: $white;
     font-size: 16px;
 }
 
 .nuestrasmarcas {
     display: flex;
     flex-direction: row;
-    background-color: rgb(57, 133, 57);
+    background-color: $green;
     padding: 1%;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -126,7 +126,7 @@ article {
     display: flex;
     flex-direction: row;
     gap: 20%;
-    background-color: rgb(57, 133, 57);
+    background-color: $green;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 5%;
@@ -175,7 +175,7 @@ article {
 }
 
 footer {
-    background-color: rgb(57, 133, 57);
+    background-color: $green;
     text-align: center;
     padding: 1%;
     margin-top: 15%;
@@ -193,7 +193,7 @@ table {
     background: rgb(240, 238, 238);
 
     th {
-        border: 1px solid rgb(211, 215, 219);
+        border: 1px solid $white;
         background: rgb(240, 238, 238);
 
         td {
@@ -245,7 +245,7 @@ table {
         display: flex;
         flex-direction: column;
         gap: 20%;
-        background-color: rgb(57, 133, 57);
+        background-color: $green;
         margin-top: 5%;
         margin-bottom: 5%;
         padding: 5%;
