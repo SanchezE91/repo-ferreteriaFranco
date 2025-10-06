@@ -41,14 +41,15 @@ nav {
 }
 
 .titulo {
-    color: rgb(211, 215, 219);
-    font-size: 80px;
-    margin: 40px;
-    padding: 2%;
-    text-align: center;
-    text-decoration: overline;
-    font-family: 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', sans-serif; /* moderna y legible */
+  font-weight: 800; /* más gruesa */
+  color: #e6b800; /* amarillo metalizado */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4); /* da profundidad */
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 30px;
 }
+
 
 .titulo-categoria {
     color: #398539;
