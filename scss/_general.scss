@@ -1,3 +1,7 @@
+* {
+    justify-content: center;
+}
+
 body {
     background-color: $white;
     font-family: "Epunda Slab", serif;
@@ -41,15 +45,21 @@ nav {
 }
 
 .titulo {
-    font-family: 'Bebas Neue', sans-serif;
-    color: $white;
-    background: linear-gradient(90deg, #333, #666);
-    padding: 15px 0;
+    font-family: 'Montserrat', sans-serif;
+    /* moderna y legible */
+    font-weight: 800;
+    /* más gruesa */
+    color: rgba(148, 218, 36, 0.774);
+    /* amarillo metalizado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* da profundidad */
     text-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-size: 70px;
 }
+
+
 
 
 .titulo-categoria {
@@ -75,11 +85,11 @@ article {
         display: block;
         margin: 0 auto;
         transition: 0.35s ease;
-
-        img:hover {
-            transform: scale(1.26);
-        }
     }
+}
+
+.articulos img:hover {
+    transform: scale(1.26);
 }
 
 .descripcion {
