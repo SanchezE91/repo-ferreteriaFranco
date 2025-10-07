@@ -1,13 +1,19 @@
+.comprar-d, .comprar-c, .comprar {
+  cursor: pointer;
+  background-color: #2e8b57;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
   list-style: none;
 }
-
 nav ul li {
   margin: 0px 40px;
 }
-
 nav ul li a {
   color: #ffffff;
   text-decoration: none;
@@ -43,11 +49,12 @@ body {
 .titulo {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  color: #2e8b57;
+  color: rgba(255, 153, 0, 0.849);
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
   text-align: center;
   letter-spacing: 2px;
   margin-top: 30px;
+  font-size: 80px;
 }
 
 .titulo-categoria {
@@ -62,20 +69,17 @@ body {
   display: flex;
   flex-direction: row;
 }
-
 .articulos article {
   border: solid 3px #2e8b57;
   border-radius: 10px;
   margin: 10px;
   width: 30%;
 }
-
 .articulos img {
   display: block;
   margin: 0 auto;
   transition: 0.35s ease;
 }
-
 .articulos img:hover {
   transform: scale(1.26);
 }
@@ -103,34 +107,28 @@ body {
   body {
     overflow-x: hidden;
   }
-
   nav ul {
     display: flex;
     flex-direction: column;
     list-style: none;
     text-align: center;
   }
-
   .titulo {
     font-size: 60px;
   }
-
   .articulos {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .articulos img {
     max-width: 100%;
     height: auto;
   }
-
   .descripcion {
     font-size: large;
     text-align: justify;
   }
-
   .infoiconos {
     display: flex;
     flex-direction: column;
@@ -140,7 +138,6 @@ body {
     margin-bottom: 5%;
     padding: 5%;
   }
-
   .local-padre {
     display: flex;
     flex-direction: column;
@@ -149,42 +146,21 @@ body {
     max-width: 40%;
     height: auto;
   }
-
   .local-padre video {
     max-width: 100%;
     height: auto;
   }
-
   .row {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
-
-.comprar {
-  cursor: pointer;
-  background-color: #2e8b57;
-  color: #ffffff;
-  font-size: 16px;
-  border-radius: 5px;
-}
-
 .comprar-c {
-  cursor: pointer;
-  background-color: #2e8b57;
-  color: #ffffff;
-  font-size: 16px;
-  border-radius: 5px;
   justify-self: center;
 }
 
 .comprar-d {
-  cursor: pointer;
-  background-color: #2e8b57;
-  color: #ffffff;
-  font-size: 16px;
-  border-radius: 5px;
   justify-self: flex-end;
 }
 
@@ -211,7 +187,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 .iconos span {
   font-size: x-large;
   font-weight: 700;
@@ -272,17 +247,14 @@ table {
   margin: 20px auto;
   background: rgb(240, 238, 238);
 }
-
 table th {
   border: 1px solid #ffffff;
   background: rgb(240, 238, 238);
 }
-
 table th td {
   padding: 10px;
   text-align: center;
 }
-
 table th td tr:last-child {
   font-weight: bold;
   text-align: center;
