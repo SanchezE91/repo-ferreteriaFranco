@@ -1,0 +1,13 @@
+.comprar {
+    @extend %boton-base;
+}
+
+.comprar-c {
+    @extend %boton-base;
+    justify-self: center;
+}
+
+.comprar-d {
+    @extend %boton-base;
+    justify-self: flex-end;
+}

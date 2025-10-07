@@ -1,0 +1,60 @@
+body {
+  background-color: $white;
+  font-family: "Epunda Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: map-get($colores, "primario");
+  text-shadow: 2px 2px 4px rgba(0,0,0,1);
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  @include responsive-text(map-get($medida, "titulo"));
+}
+
+.titulo-categoria {
+  color: map-get($colores, "primario");
+  font-size: map-get($medida, "subtitulo");
+  margin: 35px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.articulos {
+  @include flex-center(row);
+  flex-wrap: wrap;
+
+  article {
+    border: solid 3px $green;
+    border-radius: 10px;
+    margin: 10px;
+    width: 30%;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    transition: 0.35s ease;
+  }
+
+  img:hover {
+    transform: scale(1.26);
+  }
+}
+
+.descripcion {
+  font-size: x-large;
+  margin: 10px;
+  text-align: center;
+}
+
+@each $nombre, $color in $colores {
+  .texto-#{$nombre} {
+    color: $color;
+  }
+}

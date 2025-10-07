@@ -1,0 +1,29 @@
+.nuestrasmarcas {
+  @include flex-center(row);
+  background-color: $green;
+  padding: 1%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.infoiconos {
+  @include flex-center(row, 20%);
+  background-color: $green;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 5%;
+
+  .iconos {
+    @include flex-center(column);
+    span {
+      font-size: x-large;
+      font-weight: 700;
+    }
+  }
+}
+
+@for $i from 1 through 3 {
+  .texto-nivel-#{$i} {
+    font-size: 10px * $i + 10px;
+  }
+}
