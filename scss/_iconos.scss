@@ -24,10 +24,3 @@
     font-weight: 700;
   }
 }
-
-
-@for $i from 1 through 3 {
-  .texto-nivel-#{$i} {
-    font-size: 10px * $i + 10px;
-  }
-}

@@ -69,3 +69,11 @@
         }
     }
 }
+
+@mixin boton-base {
+  cursor: pointer;
+  background-color: $green;
+  color: $white;
+  font-size: 16px;
+  border-radius: 5px;
+}
