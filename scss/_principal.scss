@@ -1,8 +1,12 @@
+* {
+  justify-content: center;
+}
+
 body {
   background-color: $white;
   font-family: "Epunda Slab", serif;
   font-optical-sizing: auto;
-  font-weight: normal;
+  font-weight: weight;
   font-style: normal;
 }
 
@@ -10,11 +14,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   color: map-get($colores, "primario");
-  text-shadow: 2px 2px 4px rgba(0,0,0,1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
   text-align: center;
   letter-spacing: 2px;
   margin-top: 30px;
-  @include responsive-text(map-get($medida, "titulo"));
 }
 
 .titulo-categoria {
@@ -27,7 +30,6 @@ body {
 
 .articulos {
   @include flex-center(row);
-  flex-wrap: wrap;
 
   article {
     border: solid 3px $green;
@@ -53,8 +55,16 @@ body {
   text-align: center;
 }
 
+.row {
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+
+
 @each $nombre, $color in $colores {
   .texto-#{$nombre} {
     color: $color;
   }
 }
+
+@include responsive;

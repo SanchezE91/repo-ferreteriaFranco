@@ -4,7 +4,7 @@ nav {
         list-style: none;
 
         li {
-            margin: 10px 40px;
+            margin: 0px 40px;
 
             a {
                 color: $white;
@@ -13,4 +13,14 @@ nav {
             }
         }
     }
+}
+
+.boton-buscar {
+    text-align: center;
+}
+
+#myinput {
+    width: 50%;
+    height: 80%;
+    margin: 0 15 0 15px;
 }

@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background: rgb(240, 238, 238);
+
+    th {
+        border: 1px solid $white;
+        background: rgb(240, 238, 238);
+
+        td {
+            padding: 10px;
+            text-align: center;
+
+            tr:last-child {
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+    }
+}

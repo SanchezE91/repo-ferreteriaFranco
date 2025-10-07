@@ -1,0 +1,31 @@
+.local-padre {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    height: 80vh;
+    gap: 15px;
+    grid-template-areas:
+        "uno uno dos"
+        "tres cuatro dos";
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    place-items: center;
+}
+
+.local-1 {
+    grid-area: uno;
+}
+
+.local-2 {
+    grid-area: dos;
+}
+
+.local-3 {
+    grid-area: tres;
+}
+
+.local-4 {
+    grid-area: cuatro;
+}
