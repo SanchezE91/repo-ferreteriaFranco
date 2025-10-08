@@ -1,3 +1,11 @@
+.boton-base, .comprar-d, .comprar-c, .comprar {
+  cursor: pointer;
+  background-color: #2e8b57;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
@@ -148,29 +156,11 @@ body {
     align-items: center;
   }
 }
-.comprar {
-  cursor: pointer;
-  background-color: #2e8b57;
-  color: #ffffff;
-  font-size: 16px;
-  border-radius: 5px;
-}
-
 .comprar-c {
-  cursor: pointer;
-  background-color: #2e8b57;
-  color: #ffffff;
-  font-size: 16px;
-  border-radius: 5px;
   justify-self: center;
 }
 
 .comprar-d {
-  cursor: pointer;
-  background-color: #2e8b57;
-  color: #ffffff;
-  font-size: 16px;
-  border-radius: 5px;
   justify-self: flex-end;
 }
 

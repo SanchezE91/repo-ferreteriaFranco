@@ -1,13 +1,13 @@
 .comprar {
-    @include boton-base;
+    @extend .boton-base;
 }
 
 .comprar-c {
-    @include boton-base;
+    @extend .boton-base;
     justify-self: center;
 }
 
 .comprar-d {
-    @include boton-base;
+    @extend .boton-base;
     justify-self: flex-end;
 }
