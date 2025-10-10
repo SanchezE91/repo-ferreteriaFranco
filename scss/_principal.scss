@@ -14,7 +14,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   color: #ff9900d8;
-  text-shadow: 2px 2px 4px rgba(0,0,0,1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
   text-align: center;
   letter-spacing: 2px;
   margin-top: 30px;
@@ -29,19 +29,23 @@ body {
   text-decoration: underline;
 }
 
-.comprar {
-    @extend .boton-base;
-}
+a {
+  display: flex;
 
-.comprar-c {
+  .comprar {
     @extend .boton-base;
-    align-self: center;
-    text-align: center;
-}
+    justify-self: flex-start;
+  }
 
-.comprar-d {
+  .comprar-c {
     @extend .boton-base;
-    align-self: flex-end;
+    justify-self: center
+  }
+
+  .comprar-d {
+    @extend .boton-base;
+    justify-self: flex-end;
+  }
 }
 
 .articulos {
@@ -82,5 +86,3 @@ body {
     color: $color;
   }
 }
-
-@include responsive;

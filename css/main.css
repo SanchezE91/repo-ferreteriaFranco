@@ -1,4 +1,4 @@
-.boton-base, .comprar-d, .comprar-c, .comprar {
+.boton-base, a .comprar-d, a .comprar-c, a .comprar {
   cursor: pointer;
   background-color: #2e8b57;
   color: #ffffff;
@@ -31,7 +31,7 @@ nav ul li a {
 }
 
 header {
-  background: linear-gradient(181deg, rgb(46, 139, 87) 0%, rgb(87, 199, 133) 15%, rgb(255, 153, 0) 100%);
+  background: linear-gradient(180deg, rgb(46, 139, 87) 0%, rgb(87, 199, 133) 11%, rgb(255, 255, 255) 98%);
 }
 
 * {
@@ -65,13 +65,17 @@ body {
   text-decoration: underline;
 }
 
-.comprar-c {
-  align-self: center;
-  text-align: center;
+a {
+  display: flex;
 }
-
-.comprar-d {
-  align-self: flex-end;
+a .comprar {
+  justify-self: flex-start;
+}
+a .comprar-c {
+  justify-self: center;
+}
+a .comprar-d {
+  justify-self: flex-end;
 }
 
 .articulos {
@@ -112,59 +116,6 @@ body {
   color: #ffffff;
 }
 
-@media (max-width: 500px) {
-  body {
-    overflow-x: hidden;
-  }
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    text-align: center;
-  }
-  .titulo {
-    font-size: 60px;
-  }
-  .articulos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .articulos img {
-    max-width: 100%;
-    height: auto;
-  }
-  .descripcion {
-    font-size: large;
-    text-align: justify;
-  }
-  .infoiconos {
-    display: flex;
-    flex-direction: column;
-    gap: 20%;
-    background-color: #2e8b57;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding: 5%;
-  }
-  .local-padre {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    max-width: 40%;
-    height: auto;
-  }
-  .local-padre video {
-    max-width: 100%;
-    height: auto;
-  }
-  .row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
 .nuestrasmarcas {
   display: flex;
   flex-direction: row;
@@ -224,9 +175,9 @@ body {
 }
 
 footer {
-  background-color: #2e8b57;
+  background: linear-gradient(0deg, rgb(46, 139, 87) 0%, rgb(87, 199, 133) 11%, rgb(255, 255, 255) 98%);
   text-align: center;
-  padding: 1%;
+  padding: 2%;
   margin-top: 15%;
 }
 
