@@ -13,7 +13,7 @@ body {
 .titulo {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
-  color: rgba(255, 153, 0, 0.849);
+  color: #ff9900d8;
   text-shadow: 2px 2px 4px rgba(0,0,0,1);
   text-align: center;
   letter-spacing: 2px;
@@ -35,12 +35,13 @@ body {
 
 .comprar-c {
     @extend .boton-base;
-    justify-self: center;
+    align-self: center;
+    text-align: center;
 }
 
 .comprar-d {
     @extend .boton-base;
-    justify-self: flex-end;
+    align-self: flex-end;
 }
 
 .articulos {
