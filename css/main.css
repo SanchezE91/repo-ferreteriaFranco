@@ -115,59 +115,6 @@ a .comprar-d {
   margin-bottom: 10%;
 }
 
-@media (max-width: 500px) and (max-width: 500px) {
-  body {
-    overflow-x: hidden;
-  }
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    text-align: center;
-  }
-  .titulo {
-    font-size: 60px;
-  }
-  .articulos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .articulos img {
-    max-width: 100%;
-    height: auto;
-  }
-  .descripcion {
-    font-size: large;
-    text-align: justify;
-  }
-  .infoiconos {
-    display: flex;
-    flex-direction: column;
-    gap: 20%;
-    background-color: #2e8b57;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding: 5%;
-  }
-  .local-padre {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    max-width: 40%;
-    height: auto;
-  }
-  .local-padre video {
-    max-width: 100%;
-    height: auto;
-  }
-  .row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
 .nuestrasmarcas {
   display: flex;
   flex-direction: row;
@@ -250,6 +197,60 @@ table th td {
 table th td tr:last-child {
   font-weight: bold;
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+  }
+  .titulo {
+    font-size: 60px;
+  }
+  .articulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .articulos img {
+    max-width: 100%;
+    height: auto;
+  }
+  .descripcion {
+    font-size: large;
+    text-align: justify;
+  }
+  .infoiconos {
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    background-color: #2e8b57;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+  }
+  .local-padre {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 40%;
+    height: auto;
+  }
+  .local-padre video {
+    max-width: 100%;
+    height: auto;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
