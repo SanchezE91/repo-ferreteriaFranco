@@ -33,17 +33,17 @@ a {
   display: flex;
 
   .comprar {
-    @extend .boton-base;
+    @include boton; 
     justify-self: flex-start;
   }
 
   .comprar-c {
-    @extend .boton-base;
+    @include boton;
     justify-self: center;
   }
 
   .comprar-d {
-    @extend .boton-base;
+    @include boton; 
     justify-self: flex-end;
   }
 }
@@ -80,9 +80,6 @@ a {
   margin-bottom: 10%;
 }
 
-
-@each $nombre, $color in $colores {
-  .texto-#{$nombre} {
-    color: $color;
-  }
+@media (max-width:500px) {
+  @include responsive
 }
